@@ -1,4 +1,4 @@
-<p align="center"><img src="/mypay_logo.png">
+<p align="center"><img src="mypay_logo.png" width="30%">
 <h3 align="center">MyPay —— PC线上支付</h3><hr>
 </p>
 
