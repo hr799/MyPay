@@ -1,1 +1,31 @@
-随着越来越多的中国消费者在海外商户的网站直接购买商品，商家可集成支付宝标准支付解决方案，提供用户熟悉的用户体验，同时方便商家和消费者关于支付，外汇兑换和结算。
+
+## 支付流程和用户体验
+
+#### 付款页面（选择支付方式）：
+<p align="center">
+    <img alt="Parcel" src="img/s1.png" width="80%">
+</p>
+
+#### 扫码支付：
+<p align="center">
+    <img alt="Parcel" src="img/s1.png" width="80%">
+</p>
+
+#### 手机支付页面：
+<p align="center">
+    <img alt="Parcel" src="img/s1.png" width="80%">
+</p>
+<p align="center">
+    <img alt="Parcel" src="img/s1.png" width="80%">
+</p>
+<p align="center">
+    <img alt="Parcel" src="img/s1.png" width="80%">
+</p>
+<p align="center">
+    <img alt="Parcel" src="img/s1.png" width="80%">
+</p>
+
+#### 结果返回页面：
+<p align="center">
+    <img alt="Parcel" src="img/s1.png" width="80%">
+</p>
