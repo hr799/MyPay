@@ -1,11 +1,11 @@
-# Alipay
+# MyPay
 
-Alipay, is a third-party payment platform under Ant Financial. Dedicates to provide “Simple, Safe and Convenient” online and mobile payment solutions. Alipay makes people’s lives much easier and more convenient, building on the foundation of real-name registration and trust.
+MyPay 是每一家企业内部的虚拟支付团队，帮助企业快速高效的搭建自己的支付系统。无论企业是否已经对接支付渠道，都可以使用 MyPay 的产品和服务。作为支付技术服务商，MyPay 提供标准化支付产品及全面的支付渠道，并坚持阳光支付，只负责信息处理，不参与资金清算，是企业坚实的商业合作伙伴。
 
-## Alipay Cross-border Online Payment
+## MyPay PC线上支付
 
-<a href="cross_border/README.md"> New Cross-border Website Payment </a>
+<a href="mypay_pc/README.md"> PC线上支付 </a>
 
-## Alipay Cross-border In-Store Payment
+## MyPay 线上支付API
 
-<a href="qr_code/README.md"> Merchant QR Code Payment </a>
+<a href="payment/README.md"> 线上支付API </a>
