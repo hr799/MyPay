@@ -2,5 +2,5 @@
 
 ## 介绍
 
-### <a href="mypay_pc/api.md"> API </a>
+### <a href="api.md"> API </a>
 
