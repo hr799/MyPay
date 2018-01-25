@@ -1,4 +1,4 @@
-<p align="center"><img src="mypay_logo.png" width="30%">
+<p align="center">
 <h3 align="center">MyPay —— 支付宝查询接口</h3><hr>
 </p>
 
