@@ -24,4 +24,14 @@ https://mypay.iemoney.co.nz/wechatApi/wechatPay/$mid/$fee/$trade_no/$memo
 |trade_no   |string  |商户自己的订单号，32位，官方建议：时间日期，加随机数，唯一订单号|
 |subject    |string  |订单留言|
 
+#### 返回:
 
+```
+
+同步返回：
+https://return.url/?trade_no=20180125033932&status=SUCCESS
+
+异步返回：
+https://callback.url/?trade_no=20180125033932&status=SUCCESS
+
+```
