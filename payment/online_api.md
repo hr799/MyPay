@@ -25,7 +25,6 @@ https://mypay.iemoney.co.nz/api/payment
 |subject    |string  |商品描述|
 |sign       |string  |签名，签名规则 sign md5($mid.$subject.$fee.$trade_no.$api_key)<br/>api_key 通过平台注册时获取|
 |type       |string  |wechat, alipay|
-|currency   |string  |可选参数，微信支付的时候，可以选择 CNY，默认是NZD|
 
 #### 返回:
 
