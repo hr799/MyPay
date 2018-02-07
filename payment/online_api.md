@@ -51,6 +51,9 @@ https://mypay.iemoney.co.nz/api/payment
 |sign       |string  |签名，签名规则 sign md5($trade_no.$trade_status.$api_key) <br/>api_key 通过平台注册时获取|
 
 ```
-根据后台配置的支付类型，返回的对应的callback url
+同步返回：
+https://return.url/?trade_no=20180125033932&status=SUCCESS&sign=04a05e0d54598ef01882c18da7992762
+
+异步返回:
 https://callback.url/?trade_no=20180125033932&trade_status=SUCCES&sign=04a05e0d54598ef01882c18da7992762
 ```
