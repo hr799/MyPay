@@ -16,6 +16,7 @@ Method: HTTP GET
 https://mypay.iemoney.co.nz/api/mypay_pc
 ```
 
+#### 支付回调：
 |Parameter	|Type 	 |Description|
 |-----------|--------|-----------|
 |mid        |int     |5位数，这边获取注册|
