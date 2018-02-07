@@ -48,7 +48,7 @@ https://mypay.iemoney.co.nz/api/payment
 |-----------|--------|-----------|
 |trade_no   |string  |商户自己的订单号，32位，官方建议：时间日期，加随机数，唯一订单号|
 |trade_status   |string  |订单的支付状态，成功返回“SUCCESS”|
-|sign       |string  |签名，签名规则 sign md5($trade_no.$trade_status.$api_key) 通过平台注册时获取|
+|sign       |string  |签名，签名规则 sign md5($trade_no.$trade_status.$api_key) <br/>api_key 通过平台注册时获取|
 
 ```
 根据后台配置的支付类型，返回的对应的callback url
