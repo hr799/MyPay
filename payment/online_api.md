@@ -54,6 +54,6 @@ https://mypay.iemoney.co.nz/api/payment
 同步返回：
 https://return.url/?trade_no=20180125033932&status=SUCCESS&sign=04a05e0d54598ef01882c18da7992762
 
-异步返回:
+异步返回: 
 https://callback.url/?trade_no=20180125033932&trade_status=SUCCES&sign=04a05e0d54598ef01882c18da7992762
 ```
