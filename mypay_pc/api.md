@@ -15,8 +15,6 @@ Method: HTTP GET
 
 https://mypay.iemoney.co.nz/api/mypay_pc
 ```
-
-#### 支付回调：
 |Parameter	|Type 	 |Description|
 |-----------|--------|-----------|
 |mid        |int     |5位数，这边获取注册|
@@ -35,6 +33,7 @@ example :
 https://mypay.iemoney.co.nz/api/mypay_pc?mid=10209&subject=test&fee=0.01&trade_no=20180125033932&sign=04a05e0d54598ef01882c18da7992762
 ```
 
+#### 支付回调：
 |Parameter	|Type 	 |Description|
 |-----------|--------|-----------|
 |trade_no   |string  |商户自己的订单号，32位，官方建议：时间日期，加随机数，唯一订单号|
