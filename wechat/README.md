@@ -26,12 +26,20 @@ https://mypay.iemoney.co.nz/wechatApi/wechatPay/$mid/$fee/$trade_no/$memo
 
 #### 返回:
 
+* 支付回调：
+
+|Parameter	|Type 	 |Description|
+|-----------|--------|-----------|
+|trade_no   |string  |商户自己的订单号，32位，官方建议：时间日期，加随机数，唯一订单号|
+|trade_status   |string  |订单的支付状态，成功返回“SUCCESS”|
+|sign       |string  |签名，签名规则 sign md5($trade_no.$trade_status.$api_key) <br/>api_key 通过平台注册时获取|
+
 ```
 
 同步返回：
-https://return.url/?trade_no=20180125033932&status=SUCCESS
+https://return.url/?trade_no=20180125033932&trade_status=SUCCESS
 
 异步返回：
-https://callback.url/?trade_no=20180125033932&status=SUCCESS
+https://callback.url/?trade_no=20180125033932&trade_status=SUCCESS&sign=04a05e0d54598ef01882c18da7992762
 
 ```
