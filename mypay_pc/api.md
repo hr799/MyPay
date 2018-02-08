@@ -42,9 +42,9 @@ https://mypay.iemoney.co.nz/api/mypay_pc?mid=10209&subject=test&fee=0.01&trade_n
 
 ```
 同步返回：
-https://return.url/?trade_no=20180125033932&status=SUCCESS&sign=04a05e0d54598ef01882c18da7992762
+https://return.url/?trade_no=20180125033932&trade_status=SUCCESS
 
 异步返回：
-https://callback.url/?trade_no=20180125033932&status=SUCCESS&sign=04a05e0d54598ef01882c18da7992762
+https://callback.url/?trade_no=20180125033932&trade_status=SUCCESS&sign=04a05e0d54598ef01882c18da7992762
 
 ```
