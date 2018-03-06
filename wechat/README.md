@@ -22,7 +22,7 @@ https://mypay.iemoney.co.nz/wechatApi/wechatPay/$mid/$fee/$trade_no/$memo
 |mid        |int     |5位数，这边获取注册|
 |fee        |string  |最多两位小数的数值，如：200.65|
 |trade_no   |string  |商户自己的订单号，32位，官方建议：时间日期，加随机数，唯一订单号|
-|subject    |string  |订单留言|
+|memo    |string  |备注|
 
 #### 返回:
 
