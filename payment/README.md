@@ -13,3 +13,7 @@
 <a href="alipay.md"> 支付宝查询接口 </a>
 
 <a href="wechat.md"> 微信查询接口 </a>
+
+<a href="query.md"> 统一查询接口 </a>
+
+<a href="refund.md"> 退款接口 </a>
