@@ -21,8 +21,8 @@ https://mypay.iemoney.co.nz/api/refund
 |mid        |int     |5位数，这边获取注册|
 |refund_fee |string  |最多两位小数的数值，如：200.65|
 |trade_no   |string  |商户自己的订单号，32位，官方建议：时间日期，加随机数，唯一订单号|
-|sign       |string  |签名，签名规则 sign md5($mid.$refund_fee.$trade_no.$api_key)<br/>api_key 通过平台注册时获取|
 |type       |int     |0.线下支付宝 1:线上支付宝，2:微信|
+|sign       |string  |签名，签名规则 sign md5($mid.$refund_fee.$trade_no.$api_key)<br/>api_key 通过平台注册时获取|
 
 #### 返回:
 
