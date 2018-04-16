@@ -6,7 +6,5 @@ MyPay 是每一家企业内部的虚拟支付团队，帮助企业快速高效�
 
 <a href="mypay_pc/README.md"> MyPay 线上支付UI接入 </a>
 
-<a href="payment/README.md"> MyPay 线上支付API接入 </a>
-
-<a href="wechat/README.md"> MyPay 微信支付API </a>
+<a href="payment/README.md"> MyPay 线上API接入 </a>
 

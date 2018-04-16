@@ -12,7 +12,7 @@
 ```
 Method: HTTP GET
 
-https://mypay.iemoney.co.nz/api/check_payment?mid=10209&trade_no=20180125053131486516729354003179
+https://mypay.iemoney.co.nz/alipayApi/check_payment?mid=10209&trade_no=20180125053131486516729354003179
 ```
 
 |Parameter	|Type 	 |Description|
