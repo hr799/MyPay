@@ -12,15 +12,15 @@
 ```
 Method: HTTP GET
 
-https://mypay.iemoney.co.nz/api/check?mid=10209&trade_no=20180125053131486516729354003179&type=1&sign=xxxxxx
+https://mypay.iemoney.co.nz/api/check_order_status
 ```
 
 |Parameter	|Type 	 |Description|
 |-----------|--------|-----------|
 |mid        |int     |5位数，这边获取注册|
-|trade_no   |string  |商户自己的订单号，32位，官方建议：时间日期，加随机数，唯一订单号|
-|type       |int     |0.线下支付宝 1:线上支付宝，2:微信|
-|sign       |string  |签名，签名规则 sign md5($mid.$trade_no.$type.$api_key)<br/>api_key 通过平台注册时获取|
+|out\_trade_no   |string  |商户自己的订单号，32位，官方建议：时间日期，加随机数，唯一订单号|
+|pay_type       |int     |0.线下支付宝 1:线上支付宝，2:微信|
+|sign       |string  |签名，签名规则 sign md5($mid.$pay\_type.$out\_trade\_no.$api\_key)<br/>api_key 通过平台注册时获取|
 
 #### 返回:
 
@@ -35,7 +35,12 @@ success:
 fail:
 	{
 	    "is_success": "FALSE",
-	    "message": "ERROR_RETURN",
+	    "message": "SIGN_ERROR",
+	    "extra": []
+	}
+	{
+	    "is_success": "FALSE",
+	    "message": "COMBINE_ERROR",
 	    "extra": []
 	}
 ```

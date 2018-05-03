@@ -8,16 +8,9 @@
 
 </br>
 
-<a href="online_api.md"> 动态二维码API </a>
 
-<a href="wechat/README.md"> 微信端支付UI接入 </a>
+### <a href="order.md"> 生成订单支付接口 </a>
 
-<a href="alipay.md"> 支付宝查询接口 </a>
+### <a href="query.md"> 统一查询接口 </a>
 
-<a href="wechat.md"> 微信查询接口 </a>
-
-<a href="query.md"> 统一查询接口 </a>
-
-<a href="refund.md"> 退款接口 </a>
-
-<a href="rate.md"> 汇率接口 </a>
+### <a href="rate.md"> 汇率接口 </a>
