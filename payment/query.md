@@ -19,7 +19,7 @@ https://mypay.iemoney.co.nz/api/check_order_status
 |-----------|--------|-----------|
 |mid        |int     |5位数，这边获取注册|
 |out\_trade_no   |string  |商户自己的订单号，32位，官方建议：时间日期，加随机数，唯一订单号|
-|pay_type       |int     |0.线下支付宝 1:线上支付宝，2:微信|
+|pay_type       |int     |IE0011支付宝二维码; IE0012支付宝网页; IE0013支付宝移动网页; IE0021微信二维码; IE0022微信移动网页.|
 |sign       |string  |签名，签名规则 sign md5($mid.$pay\_type.$out\_trade\_no.$api\_key)<br/>api_key 通过平台注册时获取|
 
 #### 返回:
